@@ -191,6 +191,7 @@ button {
 }
 
 button:hover {
+    color: honeydew;
     background-color: #133e35;
 }
 
