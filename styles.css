@@ -1,0 +1,272 @@
+body {
+    font-family: 'Tenor Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #133e35
+    ;
+    color: #fcfaf2;
+}
+
+.logo img {
+    height: 300px;
+}
+
+nav {
+    background-color: #133e35;
+    color: #fcfaf2; 
+    padding: 10px 20px; 
+    position: fixed; 
+    top: 0;
+    left: 0%; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+nav ul {
+    display: flex; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: right;
+
+
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: #fcfaf2; 
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 130px 0px ;
+    background-color: #133e35;
+
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fcfaf2;
+    
+}
+
+.hero p {
+    margin: 10px 0;
+    color: #fcfaf2
+}
+.hero p {
+    margin: 10px auto; 
+    max-width: 800px; 
+    color: #fcfaf2; 
+}
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.limited-range {
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+.limited-range p{
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+.limited-range h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+
+}
+
+
+.product-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+.product {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #003333;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9em; 
+}
+
+button:hover {
+    background-color: #fcfaf2;
+    color: #133e35;
+}
+
+/* Contact Section */
+.contact-section .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #133e35;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #133e35;
+}
+
+.response-message {
+    margin-top: 15px;
+    color: #133e35;
+}
+
+/* Footer */
+footer {
+    background-color: #133e35;
+    color: #fcfaf2;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+
+.logo-section img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.contact-section h3,
+.newsletter-section h3 {
+    margin-top: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+.newsletter-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter-section input {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.newsletter-section button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #fcfaf2;
+    color: #133e35;
+    width: 40%;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+}

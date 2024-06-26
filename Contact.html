@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opulent Essence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Opulent Essence Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="About.html">Our Story</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero">
+            <h1>Welcome to Our Website</h1>
+            <p>Providing the best services for you.</p>
+            <button>Learn More</button>
+        </div>
+
+        <section class="limited-range">
+            <h2>Our Limited Range</h2>
+            <p>Discover our exclusive range of products carefully selected to meet your needs.</p>
+        </section>
+
+        <section class="product-gallery">
+            <div class="product-row">
+                <div class="product">
+                    <img src="product1.jpg" alt="Product 1">
+                    <p>Product 1 Description</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Product 2">
+                    <p>Product 2 Description</p>
+                    <button>Buy Now</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="responseMessage" class="response-message"></div>
+            </div>
+        </section>
+    </main>
+        
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section logo-section">
+                <img src="images/logo2.png" alt="Opulent Essence Logo">
+                <p>Dedicated to enhancing your natural beauty with products that are kind to both your skin and the planet</p>
+            </div>
+            <div class="footer-section contact-section">
+                <h3>Get in Touch</h3>
+                <p>📍 56 Willow Street Greenwood, London W1D 4HG, United Kingdom</p>
+                <p>✉️ opulentessence.co.uk</p>
+                <p>📞 0121 97283 222</p>
+                <div class="social-icons">
+                    <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-section newsletter-section">
+                <h3>Join a Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter Your Email">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright @ Opulent Essence by Sania, May, Kamile, Maymunn</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
