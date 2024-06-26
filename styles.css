@@ -271,3 +271,26 @@ footer {
     border-top: 1px solid #ddd;
     margin-top: 5px;
 }
+
+/* About */
+
+p1,p2 {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+
+
+
+div.first {
+  width: 1400px;
+  margin: left;
+  background-color: #C8EEC5;
+}
